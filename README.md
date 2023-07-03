@@ -6,14 +6,12 @@ This project provides a webhook for Monday.com, which interacts with a table con
 To install and set up the project, follow these steps:
 
 Clone the repository to your local machine using the following command:
-Copy code
+Copy code -
 git clone git@github.com:dark6668/monday-webhook.git
 Install the necessary dependencies by running the appropriate command for your package manager. For example, if you are using npm:
-bash
-Copy code
+Copy code - 
 npm install.
 to run the server  - npm run app/npm start
-
 ## Configuration
 Configure the job location column and link column in your Monday.com table. These columns will be used to store the work location information and the Google Maps link, respectively.
 Configure a status column in your Monday.com table with the technician's name. Make sure the technician's name matches the name in the table with technician information.
