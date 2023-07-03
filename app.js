@@ -24,7 +24,7 @@ app.post("/", async function (req, res) {
             encodedLocation = encodeURIComponent(req.body.event.columnValues.text1.value)  // You need to change text1 according to the column on which the web-hook is activated
             text = req.body.event.columnValues.text1.value  // You need to change text1 according to the column on which the web-hook is activated
             locations = `https://www.google.com/maps/search/?api=1&query=${encodedLocation}`
-            // When updating a column this line of code will be executed
+            // When updating a column this line of code will be executed or or when deleting an item
         } else if (req.body.event.value != undefined && req.body.event.columnValues == undefined) {
             encodedLocation = encodeURIComponent(req.body.event.value.value); 
             text = req.body.event.value.value
