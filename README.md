@@ -6,7 +6,6 @@ This project provides a webhook for Monday.com, which interacts with a table con
 To install and set up the project, follow these steps:
 
 Clone the repository to your local machine using the following command:
-bash
 Copy code
 git clone git@github.com:dark6668/monday-webhook.git
 Install the necessary dependencies by running the appropriate command for your package manager. For example, if you are using npm:
