@@ -13,7 +13,7 @@ Install the necessary dependencies by running the appropriate command for your p
 bash
 Copy code
 npm install
-
+to run the server  - npm run app/npm start
 
 ## Configuration
 Configure the job location column and link column in your Monday.com table. These columns will be used to store the work location information and the Google Maps link, respectively.
