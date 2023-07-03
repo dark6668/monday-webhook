@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-// make link t google-map  
+//Server to make link to google-map  
 app.post("/", async function (req, res) {
     if (req.body.challenge) {
         console.log(JSON.stringify(req.body, 0, 2));
@@ -40,7 +40,7 @@ app.post("/", async function (req, res) {
             value: locations,
             text: text
         };
-         //change column id to the column you want to update(location link)
+         //Change column id to the column you want to update(location link)
         let query = `mutation {
             change_simple_column_value (item_id:${info.item}, board_id:${info.boardId}, column_id:"location_link", value: "${info.value} ") {  
                 id
