@@ -12,7 +12,7 @@ git clone git@github.com:dark6668/monday-webhook.git
 Install the necessary dependencies by running the appropriate command for your package manager. For example, if you are using npm:
 bash
 Copy code
-npm install
+npm install.
 to run the server  - npm run app/npm start
 
 ## Configuration
